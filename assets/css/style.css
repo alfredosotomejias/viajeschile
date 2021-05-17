@@ -1,0 +1,29 @@
+body{ /* cambio de color de texto a toda la pagina */
+    color:white;
+    background-color: black;
+    font-family: 'Lobster Two', cursive;
+}
+
+.underline {/* se crea una clase para subrayado */
+    text-decoration: underline;
+}
+.carousel-inner img { /* al carousel se le da altura y un ancho de toda la pantalla */
+    width: 100%;
+    max-height: 700px;
+}
+.card-body,.card-title1,.card-title2,.card-title3,.card-title4,.card-text1,.card-text2,.card-text3,.card-text4 { /* se le da fondo a las tarjetas de color negro */
+    background-color:#0F91D2; 
+}
+/* se alinea texto del titulo de la carta */
+.card-title{
+    text-align:center;
+}
+/* se cambia el color del texto de footer y background */
+footer .container{
+    color:white;
+    background-color:black;
+}
+/* se cambia el color de iconos de redes sociales */
+.fab{
+    color:white;
+}
